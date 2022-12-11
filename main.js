@@ -20,17 +20,17 @@ switch (city) {
         const latitudeZaporizhzhia = 47.837680;
         const longitudeZaporizhzhia = 35.113043;
         alert(`Координати міста Запоріжжя: 
-        широта ${ latitudeZaporizhzhia}, довгота ${longitudeZaporizhzhia}`);
+        широта ${latitudeZaporizhzhia}, довгота ${longitudeZaporizhzhia}`);
         console.log(`Координати міста Запоріжжя: 
-        широта ${ latitudeZaporizhzhia}, довгота ${longitudeZaporizhzhia}`);
+        широта ${latitudeZaporizhzhia}, довгота ${longitudeZaporizhzhia}`);
         break;
     case 'Полтава':
         const latitudePoltava = 49.566197;
         const longitudePoltava = 34.641855;
         alert(`Координати міста Полтава: 
-        широта ${latitudePoltava}, довгота ${ longitudePoltava}`);
+        широта ${latitudePoltava}, довгота ${longitudePoltava}`);
         console.log(`Координати міста Полтава: 
-        широта ${latitudePoltava}, довгота ${ longitudePoltava}`);
+        широта ${latitudePoltava}, довгота ${longitudePoltava}`);
         break;
     case 'Харків':
         const latitudeKharkiv = 49.977722;
