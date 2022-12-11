@@ -1,46 +1,44 @@
-let city = prompt('Уведіть назву міста (Київ, Дніпро, Запоріжжя, Полтава, Харків):');
-let latitude;
-let longitude;
+const city = prompt('Уведіть назву міста (Київ, Дніпро, Запоріжжя, Полтава, Харків):');
 switch (city) {
     case 'Київ':
-        latitude = 50.450100;
-        longitude = 30.523399;
+        const latitudeKyiv = 50.450100;
+        const longitudeKyiv = 30.523399;
         alert(`Координати міста Київ: 
-        широта ${latitude}, довгота ${longitude}`);
+        широта ${latitudeKyiv}, довгота ${longitudeKyiv}`);
         console.log(`Координати міста Київ: 
-        широта ${latitude}, довгота ${longitude}`);
+        широта ${latitudeKyiv}, довгота ${longitudeKyiv}`);
         break;
     case 'Дніпро':
-        latitude = 48.326019;
-        longitude = 34.948330;
+        const latitudeDnipro = 48.326019;
+        const longitudeDnipro = 34.948330;
         alert(`Координати міста Дніпро: 
-        широта ${latitude}, довгота ${longitude}`);
+        широта ${latitudeDnipro}, довгота ${longitudeDnipro}`);
         console.log(`Координати міста Дніпро: 
-        широта ${latitude}, довгота ${longitude}`);
+        широта ${latitudeDnipro}, довгота ${longitudeDnipro}`);
         break;
     case 'Запоріжжя':
-        latitude = 47.837680;
-        longitude = 35.113043;
+        const latitudeZaporizhzhia = 47.837680;
+        const longitudeZaporizhzhia = 35.113043;
         alert(`Координати міста Запоріжжя: 
-        широта ${latitude}, довгота ${longitude}`);
+        широта ${ latitudeZaporizhzhia}, довгота ${longitudeZaporizhzhia}`);
         console.log(`Координати міста Запоріжжя: 
-        широта ${latitude}, довгота ${longitude}`);
+        широта ${ latitudeZaporizhzhia}, довгота ${longitudeZaporizhzhia}`);
         break;
     case 'Полтава':
-        latitude = 49.566197;
-        longitude = 34.641855;
+        const latitudePoltava = 49.566197;
+        const longitudePoltava = 34.641855;
         alert(`Координати міста Полтава: 
-        широта ${latitude}, довгота ${longitude}`);
+        широта ${latitudePoltava}, довгота ${ longitudePoltava}`);
         console.log(`Координати міста Полтава: 
-        широта ${latitude}, довгота ${longitude}`);
+        широта ${latitudePoltava}, довгота ${ longitudePoltava}`);
         break;
     case 'Харків':
-        latitude = 49.977722;
-        longitude = 36.184863;
+        const latitudeKharkiv = 49.977722;
+        const longitudeKharkiv = 36.184863;
         alert(`Координати міста Харків: 
-        широта ${latitude}, довгота ${longitude}`);
+        широта ${latitudeKharkiv}, довгота ${longitudeKharkiv}`);
         console.log(`Координати міста Харків: 
-        широта ${latitude}, довгота ${longitude}`);
+        широта ${latitudeKharkiv}, довгота ${longitudeKharkiv}`);
         break;
     default:
         alert('Зазначене місто відсутнє в списку')
