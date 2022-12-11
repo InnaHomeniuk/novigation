@@ -41,6 +41,6 @@ switch (city) {
         широта ${latitudeKharkiv}, довгота ${longitudeKharkiv}`);
         break;
     default:
-        alert('Зазначене місто відсутнє в списку')
-        console.log('Зазначене місто відсутнє в списку')
+        alert('Зазначене місто відсутнє в списку');
+        console.log('Зазначене місто відсутнє в списку');
 }
