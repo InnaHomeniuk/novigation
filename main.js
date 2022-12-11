@@ -22,9 +22,9 @@ switch (city) {
         latitude = 47.837680;
         longitude = 35.113043;
         alert(`Координати міста Запоріжжя: 
-            широта ${latitude}, довгота ${longitude}`);
+        широта ${latitude}, довгота ${longitude}`);
         console.log(`Координати міста Запоріжжя: 
-            широта ${latitude}, довгота ${longitude}`);
+        широта ${latitude}, довгота ${longitude}`);
         break;
     case 'Полтава':
         latitude = 49.566197;
@@ -38,9 +38,9 @@ switch (city) {
         latitude = 49.977722;
         longitude = 36.184863;
         alert(`Координати міста Харків: 
-            широта ${latitude}, довгота ${longitude}`);
+        широта ${latitude}, довгота ${longitude}`);
         console.log(`Координати міста Харків: 
-            широта ${latitude}, довгота ${longitude}`);
+        широта ${latitude}, довгота ${longitude}`);
         break;
     default:
         alert('Зазначене місто відсутнє в списку')
